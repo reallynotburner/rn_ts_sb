@@ -1,5 +1,8 @@
 # :space_invader: React Native Template TypeScript
 
+following https://facebook.github.io/react-native/blog/2018/05/07/using-typescript-with-react-native instructions
+
+
 <p>
   <a href="https://travis-ci.org/react-native-community/react-native-template-typescript">
     <img alt="Build Status" src="https://img.shields.io/travis/react-native-community/react-native-template-typescript.svg" target="_blank" />
