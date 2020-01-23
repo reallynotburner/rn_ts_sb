@@ -1,54 +1,33 @@
-# :space_invader: React Native Template TypeScript
+# React Native + React Native Web Typescript Template
 
-following https://facebook.github.io/react-native/blog/2018/05/07/using-typescript-with-react-native instructions
+## Commands
+### Installation
+yarn
+
+### Run Web
+yarn web
+
+### Run Android
+yarn android
+
+### Run iOS
+yarn ios
+
+## Goals
+Provide a boilerplate that offers Type Safety, React Native, React Web, and Storybook Integration for Web and Native.
+
+## Prior Works
+I was unable to extend https://github.com/reallynotburner/rn_web_monorepo with Storbook for React and Storybook for React Native. Also, adding another plaftorm (AppleTV for example) would be messy since the directory structure was inconsistent between mobile and web.
+
+## Development
+I used this template: https://github.com/react-native-community/react-native-template-typescript as a start.  Then enhanced it the instructions here:
+https://facebook.github.io/react-native/blog/2018/05/07/using-typescript-with-react-native.
+Then I added https://github.com/necolas/react-native-web
+I resolved package.json collisions as they happened.
+
+## Entry Points
+- Web:  uses react-scripts cli to serve up the web.  I'm using default configuration, so https://github.com/reallynotburner/rn_ts_sb/blob/addReactNativeWEb/src/index.tsx is where Web enters the app.
+- iOS: https://github.com/reallynotburner/rn_ts_sb/blob/addReactNativeWEb/index.ios.js
+- Android: https://github.com/reallynotburner/rn_ts_sb/blob/addReactNativeWEb/index.android.js
 
 
-<p>
-  <a href="https://travis-ci.org/react-native-community/react-native-template-typescript">
-    <img alt="Build Status" src="https://img.shields.io/travis/react-native-community/react-native-template-typescript.svg" target="_blank" />
-  </a>
-  <a href="https://github.com/react-native-community/react-native-template-typescript#readme">
-    <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" target="_blank" />
-  </a>
-  <a href="https://github.com/react-native-community/react-native-template-typescript/graphs/commit-activity">
-    <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" target="_blank" />
-  </a>
-  <a href="https://github.com/react-native-community/react-native-template-typescript/blob/master/LICENSE">
-    <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" target="_blank" />
-  </a>
-</p>
-
-> Clean and minimalist React Native template for a quick start with TypeScript.
-
-## :star: Features
-
-- Elegant usage directly within the [React Native CLI](https://github.com/react-native-community/cli)
-- Consistent with the default React Native template
-- Minimal additional dependencies
-
-## :arrow_forward: Usage
-
-### Note on the legacy CLI
-There seems to be quite some confusion about the legacy CLI. This template only works with the new CLI. Make sure you have uninstalled the legacy `react-native-cli` first (`npm uninstall -g react-native-cli`), for the below command to work. If you wish to not use `npx`, you can also install the new CLI globally (`npm i -g @react-native-community/cli` or `yarn global add @react-native-community/cli`).
-
-Further information can be found here: https://github.com/react-native-community/cli#about
-
-### `react-native@0.61.0` or higher
-
-```sh
-npx react-native init MyApp --template react-native-template-typescript
-```
-
-### `react-native@0.60.x`
-
-```sh
-npx react-native init MyApp --template react-native-template-typescript@6.2.0
-```
-
-## :computer: Contributing
-
-Contributions are very welcome. Please check out the [contributing document](CONTRIBUTING.md).
-
-## :bookmark: License
-
-This project is [MIT](LICENSE) licensed.
