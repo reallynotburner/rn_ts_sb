@@ -1,5 +1,7 @@
 /**
  * @format
+ * 
+ * This is the index.js for native Android and iOS
  */
 
 import { AppRegistry } from 'react-native';
