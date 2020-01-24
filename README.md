@@ -26,6 +26,12 @@ Then I added https://github.com/necolas/react-native-web
 I resolved package.json collisions as they happened.
 
 ## Entry Points
-- Web:  uses react-scripts cli to serve up the web.  I'm using default configuration, so https://github.com/reallynotburner/rn_ts_sb/blob/addReactNativeWEb/src/index.tsx is where Web enters the app.
-- iOS: https://github.com/reallynotburner/rn_ts_sb/blob/addReactNativeWEb/index.ios.js
-- Android: https://github.com/reallynotburner/rn_ts_sb/blob/addReactNativeWEb/index.android.js
+- Web:  uses react-scripts cli to serve up the web.  I'm using default configuration, so https://github.com/reallynotburner/rn_ts_sb/src/index.tsx is where Web enters the app.
+- iOS: https://github.com/reallynotburner/rn_ts_sb/index.ios.js
+- Android: https://github.com/reallynotburner/rn_ts_sb/index.android.js
+
+## Storybook
+- iOS and Android is via a view within the app, I'm currently running it as the entrypoint for the app for development purposes, but you can easily have it as part of an enhanced settings menu.
+- CAUTION: Storybook Native Server for Browser control of native stories DOES NOT WORK YET.  yarn storybook will start the server and cause many errors about parsing circular JSON references.  For now, what you see on the device is what you get for native.
+- Web is a work in progress.  I'm trying hard not to destroy the functioning React Native storybook in favor of Storybook web.  it's a novel thing to have both in one  project, and a worthy cause.
+- Storybook + Typescript is also a work in progress, as it's an odd configuration and I havent' completely resolved the compilation pipeline for it to work with the typescript components.
