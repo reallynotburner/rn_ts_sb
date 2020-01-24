@@ -15,7 +15,7 @@ storiesOf('Button', module)
   .addDecorator(getStory => <CenterView>{getStory()}</CenterView>)
   .add('with text', () => (
     <Button onPress={action('clicked-text')}>
-      <Text>Hello Button</Text>
+      <Text>Hello Button The First</Text>
     </Button>
   ))
   .add('with other text', () => (

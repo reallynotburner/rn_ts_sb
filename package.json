@@ -13,6 +13,10 @@
     "storybook": "start-storybook -p 7007"
   },
   "dependencies": {
+    "@storybook/addon-knobs": "^5.3.8",
+    "@storybook/addon-notes": "^5.3.8",
+    "@storybook/addon-ondevice-knobs": "^5.3.8",
+    "@storybook/addon-ondevice-notes": "^5.3.8",
     "@typescript-eslint/parser": "^2.17.0",
     "babel-jest": "24.9.0",
     "core-js": "^3.6.4",
