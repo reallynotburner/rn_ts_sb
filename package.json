@@ -9,7 +9,8 @@
     "test": "jest",
     "lint": "eslint .",
     "web": "react-scripts start",
-    "build": "react-scripts build"
+    "build": "react-scripts build",
+    "storybook": "start-storybook -p 7007"
   },
   "dependencies": {
     "@typescript-eslint/parser": "^2.17.0",
@@ -26,10 +27,16 @@
     "@babel/core": "^7.8.3",
     "@babel/runtime": "^7.8.3",
     "@react-native-community/eslint-config": "^0.0.6",
+    "@storybook/addon-actions": "^5.3.8",
+    "@storybook/addon-links": "^5.3.8",
+    "@storybook/addons": "^5.3.8",
+    "@storybook/react-native": "^5.3.8",
+    "@storybook/react-native-server": "^5.3.8",
     "@types/jest": "^24.9.0",
     "@types/react": "^16.9.19",
     "@types/react-native": "^0.61.2",
     "@types/react-test-renderer": "^16.9.2",
+    "babel-loader": "^8.0.6",
     "eslint": "^6.8.0",
     "metro-react-native-babel-preset": "^0.58.0",
     "react-native-typescript-transformer": "^1.2.13",

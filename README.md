@@ -29,5 +29,3 @@ I resolved package.json collisions as they happened.
 - Web:  uses react-scripts cli to serve up the web.  I'm using default configuration, so https://github.com/reallynotburner/rn_ts_sb/blob/addReactNativeWEb/src/index.tsx is where Web enters the app.
 - iOS: https://github.com/reallynotburner/rn_ts_sb/blob/addReactNativeWEb/index.ios.js
 - Android: https://github.com/reallynotburner/rn_ts_sb/blob/addReactNativeWEb/index.android.js
-
-
